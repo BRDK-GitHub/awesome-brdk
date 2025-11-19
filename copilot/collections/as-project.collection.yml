@@ -1,0 +1,18 @@
+id: as-project
+name: AS Project Collection
+description: This collection provides prompts, instructions, and agents for the AS Project.
+tags: [as, automation-studio, structured-text, mappview]
+items:
+  - path: prompts/create-em.prompt.md
+    kind: prompt
+  - path: instructions/as-project-code.instructions.md  
+    kind: instruction
+  - path: instructions/as-project-hardware.instructions.md
+    kind: instruction
+  - path: instructions/as-project-vizu.instructions.md
+    kind: instruction
+  - path: agents/as-project.agent.md
+    kind: agent
+display:
+  ordering: alpha # or "manual" to preserve order above
+  show_badge: true # set to true to show collection badge

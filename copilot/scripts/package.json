@@ -1,0 +1,22 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Scripts for managing awesome-brdk collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node validate-collection.mjs",
+    "generate": "node update-readme.mjs",
+    "create": "node create-collection.mjs",
+    "build": "npm run validate && npm run generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "js-yaml": "^4.1.1",
+    "vfile": "^6.0.3",
+    "vfile-matter": "^5.0.1"
+  }
+}
