@@ -86,7 +86,7 @@ const vscodeInsidersInstallImage =
   "https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white";
 
 const repoBaseUrl =
-  "https://raw.githubusercontent.com/github/awesome-copilot/main";
+  "https://raw.githubusercontent.com/BRDK-GitHub/awesome-brdk/main";
 
 const AKA_INSTALL_URLS = {
   instructions: "https://aka.ms/awesome-copilot/install/instructions",
