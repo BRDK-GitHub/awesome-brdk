@@ -9,7 +9,7 @@ items:
     kind: instruction
   - path: instructions/as-project-hardware.instructions.md
     kind: instruction
-  - path: instructions/as-project-vizu.instructions.md
+  - path: instructions/as-project-visu.instructions.md
     kind: instruction
   - path: agents/as-project.agent.md
     kind: agent
